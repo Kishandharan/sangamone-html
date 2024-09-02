@@ -20,6 +20,7 @@
 .topbar *{
 	font-size: 25px;
 	user-select: none;
+	z-index: 9999;
 }
 
 .theme1{
@@ -110,20 +111,4 @@
 	font-weight: bold;
 }
 
-.theme14{
 
-}
-
-.theme15{
-	font-size: 28px;
-	line-height: 40px;
-}
-
-.theme16{
-	color: orange;
-	font-weight: bolder;
-}
-
-.theme17{
-	display: inline-block;
-}
