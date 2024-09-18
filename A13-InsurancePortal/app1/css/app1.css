@@ -1,0 +1,46 @@
+*{
+	font-family: "Arial";
+}
+
+.theme1{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	padding: 3px;
+}
+
+.theme2{
+	margin-bottom: 20px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.theme2:nth-child(1){
+	margin-left: 54%;
+}
+
+.theme2 > p{
+	font-size: 17px;
+}
+
+.theme2 > p:hover{
+	text-decoration: underline;
+	text-decoration-color: blue;
+	cursor: pointer;
+}
+
+.theme3{
+	background-color: transparent;
+	border: 1px solid blue;
+	font-size: large;
+	padding: 6px;
+	border-radius: 10px;
+	color: blue;
+}
+
+.theme4{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+}
