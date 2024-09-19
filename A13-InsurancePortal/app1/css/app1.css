@@ -1,4 +1,8 @@
-*{
+:root{
+	--cardbg: #F2FFF7;
+}
+
+.theme1 *{
 	font-family: "Arial";
 }
 
@@ -44,3 +48,40 @@
 	margin-right: 10%;
 	margin-top: 10%;
 }
+
+.theme5{
+	font-weight: lighter;
+}
+
+.theme4 > h1:nth-child(1){
+	font-family: "Noto Sans";
+}
+
+.theme6{
+	width: 400px;
+}
+
+.theme6 td{
+	font-family: "Arial";
+	font-size: 15px;
+}
+
+.theme6 td:nth-child(1){
+	color: blueviolet;
+}
+
+.theme6 td:nth-child(2){
+	color: orange;
+}
+
+.theme8{
+	margin: 5px;
+}
+
+.theme8 span.card-body{
+	display: inline-block;
+	background-color: grey;
+	padding: 10px;
+	width: 200px;
+}
+
