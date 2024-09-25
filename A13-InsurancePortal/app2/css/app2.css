@@ -82,10 +82,11 @@
 
 .theme8{
 	margin: 5px;
+	position: relative;
 }
 
-.theme8 tr td{
-
+.theme7 tr td{
+	text-align: center;
 }
 
 .theme8 .card-body{
@@ -95,7 +96,6 @@
 	width: 100px;
 	height: 50px;
 	border-radius: 5px;
-	position: relative;
 	text-align: center;
 }
 
@@ -113,12 +113,13 @@
 	font-family: "Arial";
 }
 
-.theme8 .card-text{
+.card-text{
 	position: absolute;
-	top: 44.4%;
-	left: 10.9%;
+	top: 94.4%;
+	left: 20%;
 	font-family: "Arial";
 }
+
 
 .color1{
 	background-color: var(--color1);
@@ -139,6 +140,11 @@
 
 .color5{
 	background-color: var(--color5);
+}
+
+.theme9{
+	display: inline-block;
+	
 }
 
 
