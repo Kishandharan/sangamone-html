@@ -2,10 +2,9 @@
 	--cardbg: #e8f3fa;
 
 	--color1: #d95c5c;
-	--color2: #e4d9f3;
-	--color3: #8AE0FF;/*3,8*/
-	--color4: #D94343;/*4,5,6*/
-	--color5: #E4D9F3;
+	--color2: #e4d9f3;/*2,7*/
+	--color3: #8ae0ff;/*3,8*/
+	--color4: #d9f3f3;/*4,5,6*/
 }
 
 .theme1 *{
@@ -13,7 +12,6 @@
 }
 
 .theme1{
-	position: fixed;
 	width: 100%;
 	top: 0;
 	right: 0;
@@ -142,10 +140,19 @@
 	background-color: var(--color5);
 }
 
-.theme9{
-	display: inline-block;
-	
+
+.theme7 tr{
+	height: 120px;
 }
 
-
+.theme9{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	top: 25%;
+	left: 50%;
+	height: 150px;
+	width: 500px;
+	border-radius: 30px;
+}
 
