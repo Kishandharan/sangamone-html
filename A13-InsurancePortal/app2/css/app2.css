@@ -132,12 +132,20 @@
 	background-color: var(--color3);
 }
 
-.color4{
+.color4{	
 	background-color: var(--color4);
 }
 
 .color5{
 	background-color: var(--color5);
+}
+
+.color6{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.color7{
+	background-color: dodgerblue;
 }
 
 
@@ -147,12 +155,19 @@
 
 .theme9{
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.2);
 	padding: 10px;
-	top: 25%;
+	top: 15%;
 	left: 50%;
-	height: 150px;
 	width: 500px;
 	border-radius: 30px;
 }
+
+.theme10{
+	position: absolute;
+	display: flex;
+	gap: 10px;
+	top: 41%;
+	left: 63%;
+}
+
 
